@@ -17,10 +17,16 @@
 	<h3>이미 커밋한 내용을 취소하고 싶을 경우</h3>
 	<p>브랜치 초기화 - 특정 지점으로 완전히 초기화한다.</p>
 	<p>reverse commit</p>
+	<button>click</button>
 </body>
 <script>
 	$("p").click(function(){
 		$(this).css('color','red');
+	});
+	
+	var arr = [];
+	$('button').click(function(){
+		arr.push("data");
 	});
 </script>
 </html>
