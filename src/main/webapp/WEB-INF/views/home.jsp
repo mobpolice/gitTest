@@ -10,8 +10,6 @@
 </head>
 <body>
 	${msg }
-	<h3>깃 시작하기!</h3>
-	<p>1. 커밋해보기</p>
 </body>
 <script></script>
 </html>
